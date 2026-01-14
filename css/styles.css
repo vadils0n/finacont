@@ -10,7 +10,7 @@ div.bg {
   left: 0;
   width: 100%;
   height: 100vh;
-  background-image: url(/images/bg.jpg);
+  background-image: url(/images/fundo.jpg);
   opacity: 0.3;
   background-size: cover;
   background-position: center;
@@ -114,3 +114,4 @@ text.cls-3 {
     width: 200px;
   }
 }
+
