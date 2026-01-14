@@ -10,7 +10,7 @@ section div.background {
   width: 100%;
   height: 100vh;
   z-index: -1;
-  opacity: 0.15;
+  opacity: 0.2;
 }
 section div.background video {
   width: 100%;
@@ -56,8 +56,13 @@ p.sub {
   margin-top: 20px;
   font-size: 1.3em;
 }
+svg#stroke {
+  position: absolute;
+  width: 18rem;
+  top: 17.4em;
+}
 svg {
-  width: 300px;
+  width: 200px;
   animation: draw 8s ease;
   stroke-dasharray: 2500;
 }
@@ -71,6 +76,14 @@ svg {
 }
 div.logo {
   animation: flutter 3s infinite;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+div.logo img {
+  width: 25rem;
+  height: auto;
 }
 @keyframes flutter {
   0%,
@@ -81,7 +94,7 @@ div.logo {
     transform: translateY(-20px);
   }
 }
-text.cls-2 {
+text.cls-4 {
   font-family: "Ubuntu", sans-serif;
   font-weight: 700;
   stroke-width: 2px;
@@ -92,6 +105,16 @@ text.cls-2 {
   div.texto {
     width: 100%;
     margin-top: -30px;
+  }
+  svg {
+    width: 150px;
+  }
+  div.logo img {
+    width: 15rem;
+  }
+  svg#stroke {
+    top: 16em;
+    width: 10rem;
   }
   h1 {
     font-size: 2em;
