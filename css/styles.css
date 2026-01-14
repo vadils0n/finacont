@@ -4,7 +4,7 @@
   padding: 0;
 }
 
-div.bg {
+div.fundo {
   position: fixed;
   top: 0;
   left: 0;
@@ -114,4 +114,5 @@ text.cls-3 {
     width: 200px;
   }
 }
+
 
